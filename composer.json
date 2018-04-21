@@ -1,0 +1,23 @@
+{
+  "name": "codeurx/database",
+  "type": "library",
+  "description": "Useful Query Builder, PDO Class for PHP. A simple access to your SQL records.",
+  "keywords": ["php","pdo","sql","query","builder"],
+  "homepage": "https://github.com/codeurx/database",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Amir Ali Salah",
+      "email": "codeurx@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Codeurx\\": "src"
+    }
+  }
+}
